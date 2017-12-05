@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form action="https://formspree.io/jwojas@wp.pl" method="POST"></form>
+    <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br><br>
+    <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname"><br><br>
+    <label for="phone">Numer telefonu:</label><br>
+        <input type="tel" name="phone" id="phone"><br><br>
+    <label for="email">Mail:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+    <label for="city">Miasto:</label><br>
+        <select name="city" id="city">
+            <option value="">Kraków</option>
+            <option value="">Warszawa</option>
+            <option value="">Gdańsk</option>
+        </select><br><br>
+    <label>Płeć:</label><br>
+        <input type="radio" name="gender"  value="male" checked>Mężczyzna<br>
+        <input type="radio" name="gender"  value="female">Kobieta<br><br>
+    <label for="check">Zgoda na dane osobowe:</label><br>
+        <input type="checkbox" name="check" id="check">Zgadzam się<br><br>
+    <label for="msg">Wiadomość:</label><br>
+        <textarea name="msg" id="msg" maxlength="1000"></textarea><br><br>
+        <input type="submit" value="Wyślij">
 </body>
+
 </html>
